@@ -1,0 +1,2 @@
+steps {
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'GitHubAccesss', url: 'git@github.com:SreeVeerDevOps/devopsb18-multi-branch-pipeline.git']]])
